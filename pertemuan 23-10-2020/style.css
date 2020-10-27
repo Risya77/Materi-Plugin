@@ -1,0 +1,78 @@
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 350px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-family: Constantia;
+    font-size: 20px;
+    color: black;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor:pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color:tan;;
+    color:black;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    font-family: Constantia;
+    display: none;
+    background-color: rgb(226, 196, 140);
+    padding-left: 8px;
+  }
+  
+  
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 500px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+          aside{
+              width: 25%;
+              float: left;
+              min-height: 120px;
+              border: double;
+              border-top-right-radius: 20px;
+              border-bottom-right-radius: 20px;
+              overflow: hidden;
+              background-color:wheat;
+              border-left: none;
+              
+          }
+  
+          section{
+              width: 100%;
+              float: left;
+              min-height: 120px;
+          
+          }
+  
+          footer{
+              text-align: center;
+              background-color:wheat;
+          }        
